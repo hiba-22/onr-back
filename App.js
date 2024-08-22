@@ -23,7 +23,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin: ["https://onrtech-front.vercel.app"],
+        origin: ["https://onrweb-front-git-master-hiba-22s-projects.vercel.app/"],
         methods: ["GET,POST,DELETE,PUT,PATCH"],
         credentials: true,
     })
